@@ -1,0 +1,58 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="weakfishGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F0E68C;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFFFE0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0E68C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6F3FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3D9FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Water background -->
+  <rect width="400" height="300" fill="url(#waterGradient)"/>
+  
+  <!-- Fish body -->
+  <ellipse cx="200" cy="150" rx="100" ry="35" fill="url(#weakfishGradient)" stroke="#DAA520" stroke-width="2"/>
+  
+  <!-- Fish head -->
+  <ellipse cx="120" cy="150" rx="45" ry="32" fill="url(#weakfishGradient)" stroke="#DAA520" stroke-width="2"/>
+  
+  <!-- Fish tail -->
+  <path d="M 300 150 Q 330 130 350 150 Q 330 170 300 150" fill="url(#weakfishGradient)" stroke="#DAA520" stroke-width="2"/>
+  
+  <!-- Dorsal fin -->
+  <path d="M 140 115 Q 180 105 220 115 Q 260 120 290 115 Q 270 125 230 120 Q 190 130 150 120 Q 140 125 140 115" fill="#DAA520" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Pectoral fin -->
+  <ellipse cx="140" cy="160" rx="8" ry="15" fill="#DAA520" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Eye -->
+  <circle cx="100" cy="145" r="6" fill="white" stroke="#000" stroke-width="1"/>
+  <circle cx="100" cy="145" r="3" fill="black"/>
+  <circle cx="101" cy="143" r="1" fill="white"/>
+  
+  <!-- Mouth -->
+  <ellipse cx="80" cy="150" rx="5" ry="3" fill="#000"/>
+  
+  <!-- Gill -->
+  <path d="M 90 140 Q 80 145 90 150" stroke="#DAA520" stroke-width="2" fill="none"/>
+  
+  <!-- Anal fin -->
+  <path d="M 140 180 Q 180 190 220 180 Q 260 175 290 180 Q 270 185 230 177 Q 190 185 150 177 Q 140 185 140 180" fill="#DAA520" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Yellow spot on tail -->
+  <circle cx="320" cy="150" r="8" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+  
+  <!-- Spots on body -->
+  <circle cx="180" cy="140" r="2" fill="#8B4513"/>
+  <circle cx="200" cy="155" r="2" fill="#8B4513"/>
+  <circle cx="220" cy="145" r="2" fill="#8B4513"/>
+  <circle cx="240" cy="160" r="2" fill="#8B4513"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Weakfish (Squeteague)</text>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5D6D7E">Cynoscion regalis</text>
+</svg>

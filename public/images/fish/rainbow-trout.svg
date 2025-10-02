@@ -1,0 +1,62 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rainbowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF69B4;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#FF1493;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00CED1;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#4169E1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF69B4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6F7FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3E6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Water background -->
+  <rect width="400" height="300" fill="url(#waterGradient)"/>
+  
+  <!-- Fish body -->
+  <ellipse cx="200" cy="150" rx="100" ry="30" fill="url(#rainbowGradient)" stroke="#DC143C" stroke-width="2"/>
+  
+  <!-- Fish head -->
+  <ellipse cx="120" cy="150" rx="40" ry="28" fill="url(#rainbowGradient)" stroke="#DC143C" stroke-width="2"/>
+  
+  <!-- Fish tail -->
+  <path d="M 300 150 Q 330 130 350 150 Q 330 170 300 150" fill="url(#rainbowGradient)" stroke="#DC143C" stroke-width="2"/>
+  
+  <!-- Dorsal fin -->
+  <path d="M 140 120 Q 180 110 220 120 Q 260 125 290 120 Q 270 130 230 125 Q 190 135 150 125 Q 140 130 140 120" fill="#DC143C" stroke="#B22222" stroke-width="1"/>
+  
+  <!-- Pectoral fin -->
+  <ellipse cx="135" cy="160" rx="8" ry="15" fill="#DC143C" stroke="#B22222" stroke-width="1"/>
+  
+  <!-- Eye -->
+  <circle cx="105" cy="145" r="6" fill="white" stroke="#000" stroke-width="1"/>
+  <circle cx="105" cy="145" r="3" fill="black"/>
+  <circle cx="106" cy="143" r="1" fill="white"/>
+  
+  <!-- Mouth -->
+  <ellipse cx="90" cy="150" rx="5" ry="3" fill="#000"/>
+  
+  <!-- Gill -->
+  <path d="M 100 140 Q 90 145 100 150" stroke="#DC143C" stroke-width="2" fill="none"/>
+  
+  <!-- Anal fin -->
+  <path d="M 140 175 Q 180 185 220 175 Q 260 170 290 175 Q 270 180 230 172 Q 190 180 150 172 Q 140 175 140 175" fill="#DC143C" stroke="#B22222" stroke-width="1"/>
+  
+  <!-- Spots -->
+  <circle cx="160" cy="140" r="2" fill="#000"/>
+  <circle cx="180" cy="155" r="2" fill="#000"/>
+  <circle cx="200" cy="145" r="2" fill="#000"/>
+  <circle cx="220" cy="160" r="2" fill="#000"/>
+  <circle cx="240" cy="150" r="2" fill="#000"/>
+  <circle cx="260" cy="155" r="2" fill="#000"/>
+  
+  <!-- Rainbow stripe -->
+  <path d="M 120 150 Q 200 145 280 150" stroke="#FFD700" stroke-width="2" fill="none"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Rainbow Trout</text>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5D6D7E">Oncorhynchus mykiss</text>
+</svg>

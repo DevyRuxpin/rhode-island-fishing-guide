@@ -1,0 +1,46 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eelGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2F4F4F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#708090;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6F7FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3E6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Water background -->
+  <rect width="400" height="300" fill="url(#waterGradient)"/>
+  
+  <!-- Eel body -->
+  <ellipse cx="200" cy="150" rx="180" ry="25" fill="url(#eelGradient)" stroke="#1C3A3A" stroke-width="2"/>
+  
+  <!-- Eel head -->
+  <ellipse cx="50" cy="150" rx="30" ry="20" fill="url(#eelGradient)" stroke="#1C3A3A" stroke-width="2"/>
+  
+  <!-- Eel tail -->
+  <ellipse cx="350" cy="150" rx="25" ry="15" fill="url(#eelGradient)" stroke="#1C3A3A" stroke-width="2"/>
+  
+  <!-- Dorsal fin -->
+  <path d="M 80 135 Q 120 125 160 135 Q 200 140 240 135 Q 280 130 320 135 Q 360 140 380 135 Q 360 145 320 140 Q 280 150 240 145 Q 200 150 160 145 Q 120 150 80 145 Q 80 145 80 135" fill="#1C3A3A" stroke="#0F2F2F" stroke-width="1"/>
+  
+  <!-- Eye -->
+  <circle cx="35" cy="145" r="4" fill="white" stroke="#000" stroke-width="1"/>
+  <circle cx="35" cy="145" r="2" fill="black"/>
+  <circle cx="36" cy="144" r="0.5" fill="white"/>
+  
+  <!-- Mouth -->
+  <ellipse cx="25" cy="150" rx="3" ry="2" fill="#000"/>
+  
+  <!-- Gill -->
+  <path d="M 45 145 Q 40 147 45 150" stroke="#1C3A3A" stroke-width="1" fill="none"/>
+  
+  <!-- Anal fin -->
+  <path d="M 80 165 Q 120 175 160 165 Q 200 160 240 165 Q 280 170 320 165 Q 360 160 380 165 Q 360 170 320 165 Q 280 175 240 170 Q 200 175 160 170 Q 120 175 80 170 Q 80 170 80 165" fill="#1C3A3A" stroke="#0F2F2F" stroke-width="1"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">American Eel</text>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5D6D7E">Anguilla rostrata</text>
+</svg>

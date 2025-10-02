@@ -1,0 +1,70 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brookTroutGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#32CD32;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#FF6347;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228B22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6F7FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3E6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Water background -->
+  <rect width="400" height="300" fill="url(#waterGradient)"/>
+  
+  <!-- Fish body -->
+  <ellipse cx="200" cy="150" rx="90" ry="25" fill="url(#brookTroutGradient)" stroke="#006400" stroke-width="2"/>
+  
+  <!-- Fish head -->
+  <ellipse cx="120" cy="150" rx="35" ry="25" fill="url(#brookTroutGradient)" stroke="#006400" stroke-width="2"/>
+  
+  <!-- Fish tail -->
+  <path d="M 290 150 Q 320 130 340 150 Q 320 170 290 150" fill="url(#brookTroutGradient)" stroke="#006400" stroke-width="2"/>
+  
+  <!-- Dorsal fin -->
+  <path d="M 130 125 Q 170 115 210 125 Q 250 130 280 125 Q 260 135 220 130 Q 180 140 140 130 Q 130 135 130 125" fill="#006400" stroke="#004400" stroke-width="1"/>
+  
+  <!-- Pectoral fin -->
+  <ellipse cx="130" cy="160" rx="7" ry="12" fill="#006400" stroke="#004400" stroke-width="1"/>
+  
+  <!-- Eye -->
+  <circle cx="105" cy="145" r="5" fill="white" stroke="#000" stroke-width="1"/>
+  <circle cx="105" cy="145" r="3" fill="black"/>
+  <circle cx="106" cy="143" r="1" fill="white"/>
+  
+  <!-- Mouth -->
+  <ellipse cx="90" cy="150" rx="4" ry="2" fill="#000"/>
+  
+  <!-- Gill -->
+  <path d="M 95 140 Q 85 145 95 150" stroke="#006400" stroke-width="2" fill="none"/>
+  
+  <!-- Anal fin -->
+  <path d="M 130 170 Q 170 180 210 170 Q 250 165 280 170 Q 260 175 220 167 Q 180 175 140 167 Q 130 170 130 170" fill="#006400" stroke="#004400" stroke-width="1"/>
+  
+  <!-- Brook trout pattern - worm-like markings -->
+  <path d="M 140 145 Q 160 140 180 145 Q 200 150 220 145 Q 240 140 260 145" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <path d="M 140 155 Q 160 150 180 155 Q 200 160 220 155 Q 240 150 260 155" stroke="#8B4513" stroke-width="3" fill="none"/>
+  
+  <!-- Red spots -->
+  <circle cx="160" cy="145" r="2" fill="#FF0000"/>
+  <circle cx="180" cy="150" r="2" fill="#FF0000"/>
+  <circle cx="200" cy="145" r="2" fill="#FF0000"/>
+  <circle cx="220" cy="150" r="2" fill="#FF0000"/>
+  <circle cx="240" cy="145" r="2" fill="#FF0000"/>
+  
+  <!-- Blue halos around red spots -->
+  <circle cx="160" cy="145" r="4" fill="none" stroke="#4169E1" stroke-width="1"/>
+  <circle cx="180" cy="150" r="4" fill="none" stroke="#4169E1" stroke-width="1"/>
+  <circle cx="200" cy="145" r="4" fill="none" stroke="#4169E1" stroke-width="1"/>
+  <circle cx="220" cy="150" r="4" fill="none" stroke="#4169E1" stroke-width="1"/>
+  <circle cx="240" cy="145" r="4" fill="none" stroke="#4169E1" stroke-width="1"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Brook Trout</text>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5D6D7E">Salvelinus fontinalis</text>
+  <text x="200" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8B4513">Rhode Island State Fish</text>
+</svg>

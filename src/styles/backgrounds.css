@@ -1,0 +1,97 @@
+/* Rhode Island Fishing App Backgrounds */
+
+/* Home Page Background - Rhode Island Background */
+.home-background {
+  background-image: url('/images/backgrounds/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Fish Species Page Background - Lincoln Woods */
+.fish-species-background {
+  background-image: url('/images/backgrounds/linc-woods.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* AI Recommendations Page Background - Ganset */
+.ai-background {
+  background-image: url('/images/backgrounds/ganset.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Reports Page Background - Point Judith */
+.reports-background {
+  background-image: url('/images/backgrounds/ptjudith.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Gear Page Background - Point Judith */
+.gear-background {
+  background-image: url('/images/backgrounds/ptjudith.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Journal Page Background - Lincoln Woods */
+.journal-background {
+  background-image: url('/images/backgrounds/linc-woods.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Dark overlay for better text readability */
+.page-overlay {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+/* Enhanced contrast classes for bright images */
+.text-contrast {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9), 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.text-contrast-strong {
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.95), 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.card-high-contrast {
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.section-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+}
+
+/* Card backgrounds with better contrast */
+.card-background {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Hero section with enhanced readability */
+.hero-background {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 1rem;
+}

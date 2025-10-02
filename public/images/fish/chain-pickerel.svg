@@ -1,0 +1,70 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pickerelGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#32CD32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228B22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6F7FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3E6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Water background -->
+  <rect width="400" height="300" fill="url(#waterGradient)"/>
+  
+  <!-- Fish body -->
+  <ellipse cx="200" cy="150" rx="120" ry="25" fill="url(#pickerelGradient)" stroke="#006400" stroke-width="2"/>
+  
+  <!-- Fish head -->
+  <ellipse cx="90" cy="150" rx="50" ry="30" fill="url(#pickerelGradient)" stroke="#006400" stroke-width="2"/>
+  
+  <!-- Fish tail -->
+  <path d="M 320 150 Q 360 130 380 150 Q 360 170 320 150" fill="url(#pickerelGradient)" stroke="#006400" stroke-width="2"/>
+  
+  <!-- Dorsal fin -->
+  <path d="M 120 125 Q 160 115 200 125 Q 240 130 280 125 Q 260 135 220 130 Q 180 140 140 130 Q 120 135 120 125" fill="#006400" stroke="#004400" stroke-width="1"/>
+  
+  <!-- Pectoral fin -->
+  <ellipse cx="110" cy="165" rx="8" ry="15" fill="#006400" stroke="#004400" stroke-width="1"/>
+  
+  <!-- Eye -->
+  <circle cx="75" cy="145" r="7" fill="white" stroke="#000" stroke-width="1"/>
+  <circle cx="75" cy="145" r="4" fill="black"/>
+  <circle cx="76" cy="143" r="1.5" fill="white"/>
+  
+  <!-- Mouth with teeth -->
+  <ellipse cx="50" cy="150" rx="12" ry="6" fill="#000"/>
+  
+  <!-- Teeth -->
+  <path d="M 45 155 L 40 152" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 45 145 L 40 148" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 45 150 L 40 150" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 45 153 L 40 151" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M 45 147 L 40 149" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Gill -->
+  <path d="M 85 140 Q 75 145 85 150" stroke="#006400" stroke-width="2" fill="none"/>
+  
+  <!-- Anal fin -->
+  <path d="M 120 170 Q 160 180 200 170 Q 240 165 280 170 Q 260 175 220 167 Q 180 175 140 167 Q 120 170 120 170" fill="#006400" stroke="#004400" stroke-width="1"/>
+  
+  <!-- Chain pattern -->
+  <path d="M 140 140 Q 160 135 180 140 Q 200 145 220 140 Q 240 135 260 140 Q 280 145 300 140" stroke="#8B4513" stroke-width="4" fill="none"/>
+  <path d="M 140 155 Q 160 150 180 155 Q 200 160 220 155 Q 240 150 260 155 Q 280 160 300 155" stroke="#8B4513" stroke-width="4" fill="none"/>
+  <path d="M 140 165 Q 160 160 180 165 Q 200 170 220 165 Q 240 160 260 165 Q 280 170 300 165" stroke="#8B4513" stroke-width="4" fill="none"/>
+  
+  <!-- Chain links -->
+  <circle cx="160" cy="140" r="8" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="180" cy="155" r="8" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="200" cy="140" r="8" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="220" cy="155" r="8" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="240" cy="140" r="8" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="260" cy="155" r="8" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="280" cy="140" r="8" fill="none" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Chain Pickerel</text>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5D6D7E">Esox niger</text>
+</svg>

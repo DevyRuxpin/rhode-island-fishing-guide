@@ -1,0 +1,55 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="whitePerchGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F5F5DC;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F5DC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6F7FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3E6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Water background -->
+  <rect width="400" height="300" fill="url(#waterGradient)"/>
+  
+  <!-- Fish body -->
+  <ellipse cx="200" cy="150" rx="85" ry="35" fill="url(#whitePerchGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+  <!-- Fish head -->
+  <ellipse cx="130" cy="150" rx="35" ry="30" fill="url(#whitePerchGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+  <!-- Fish tail -->
+  <path d="M 285 150 Q 315 130 335 150 Q 315 170 285 150" fill="url(#whitePerchGradient)" stroke="#D3D3D3" stroke-width="2"/>
+  
+  <!-- Dorsal fin -->
+  <path d="M 140 115 Q 180 105 220 115 Q 260 120 280 115 Q 260 125 220 120 Q 180 130 140 120 Q 140 125 140 115" fill="#D3D3D3" stroke="#A9A9A9" stroke-width="1"/>
+  
+  <!-- Pectoral fin -->
+  <ellipse cx="145" cy="160" rx="6" ry="12" fill="#D3D3D3" stroke="#A9A9A9" stroke-width="1"/>
+  
+  <!-- Eye -->
+  <circle cx="115" cy="145" r="5" fill="white" stroke="#000" stroke-width="1"/>
+  <circle cx="115" cy="145" r="3" fill="black"/>
+  <circle cx="116" cy="143" r="1" fill="white"/>
+  
+  <!-- Mouth -->
+  <ellipse cx="100" cy="150" rx="4" ry="2" fill="#000"/>
+  
+  <!-- Gill -->
+  <path d="M 110 140 Q 100 145 110 150" stroke="#D3D3D3" stroke-width="2" fill="none"/>
+  
+  <!-- Anal fin -->
+  <path d="M 140 175 Q 180 185 220 175 Q 260 170 280 175 Q 260 180 220 172 Q 180 180 140 172 Q 140 180 140 175" fill="#D3D3D3" stroke="#A9A9A9" stroke-width="1"/>
+  
+  <!-- Spots -->
+  <circle cx="180" cy="140" r="2" fill="#8B4513"/>
+  <circle cx="200" cy="155" r="2" fill="#8B4513"/>
+  <circle cx="220" cy="145" r="2" fill="#8B4513"/>
+  <circle cx="240" cy="160" r="2" fill="#8B4513"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">White Perch</text>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5D6D7E">Morone americana</text>
+</svg>

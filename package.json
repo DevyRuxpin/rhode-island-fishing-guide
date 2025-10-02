@@ -1,0 +1,59 @@
+{
+  "name": "rhode-island-fishing-guide",
+  "version": "1.0.0",
+  "description": "Advanced AI-powered fishing guide for Rhode Island waters. Features comprehensive species database, location guides, personal fishing journal, and intelligent recommendations.",
+  "author": "Kali Consulting LLC",
+  "license": "UNLICENSED",
+  "private": true,
+  "keywords": [
+    "fishing",
+    "rhode-island",
+    "ai",
+    "fishing-guide",
+    "marine-fisheries",
+    "fish-species",
+    "fishing-locations",
+    "fishing-journal",
+    "gear-recommendations"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/[username]/rhode-island-fishing-guide.git"
+  },
+  "homepage": "https://github.com/[username]/rhode-island-fishing-guide#readme",
+  "bugs": {
+    "url": "https://github.com/[username]/rhode-island-fishing-guide/issues"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "type-check": "tsc --noEmit",
+    "build:analyze": "ANALYZE=true next build",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.7.4",
+    "@types/leaflet": "^1.9.20",
+    "framer-motion": "^12.23.22",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.544.0",
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

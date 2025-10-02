@@ -1,0 +1,63 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pumpkinseedGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF8C00;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4169E1;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#FF8C00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6F7FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3E6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Water background -->
+  <rect width="400" height="300" fill="url(#waterGradient)"/>
+  
+  <!-- Fish body -->
+  <ellipse cx="200" cy="150" rx="80" ry="50" fill="url(#pumpkinseedGradient)" stroke="#FF4500" stroke-width="2"/>
+  
+  <!-- Fish head -->
+  <ellipse cx="140" cy="150" rx="35" ry="35" fill="url(#pumpkinseedGradient)" stroke="#FF4500" stroke-width="2"/>
+  
+  <!-- Fish tail -->
+  <path d="M 280 150 Q 310 130 330 150 Q 310 170 280 150" fill="url(#pumpkinseedGradient)" stroke="#FF4500" stroke-width="2"/>
+  
+  <!-- Dorsal fin -->
+  <path d="M 150 115 Q 190 105 230 115 Q 270 120 290 115 Q 270 125 230 120 Q 190 130 150 120 Q 150 125 150 115" fill="#FF4500" stroke="#CC3700" stroke-width="1"/>
+  
+  <!-- Pectoral fin -->
+  <ellipse cx="155" cy="160" rx="6" ry="12" fill="#FF4500" stroke="#CC3700" stroke-width="1"/>
+  
+  <!-- Eye -->
+  <circle cx="125" cy="145" r="5" fill="white" stroke="#000" stroke-width="1"/>
+  <circle cx="125" cy="145" r="3" fill="black"/>
+  <circle cx="126" cy="143" r="1" fill="white"/>
+  
+  <!-- Mouth -->
+  <ellipse cx="110" cy="150" rx="4" ry="2" fill="#000"/>
+  
+  <!-- Gill -->
+  <path d="M 120 140 Q 110 145 120 150" stroke="#FF4500" stroke-width="2" fill="none"/>
+  
+  <!-- Anal fin -->
+  <path d="M 150 180 Q 190 190 230 180 Q 270 175 290 180 Q 270 185 230 177 Q 190 185 150 177 Q 150 185 150 180" fill="#FF4500" stroke="#CC3700" stroke-width="1"/>
+  
+  <!-- Pumpkinseed pattern -->
+  <circle cx="180" cy="140" r="3" fill="#4169E1"/>
+  <circle cx="200" cy="155" r="3" fill="#4169E1"/>
+  <circle cx="220" cy="145" r="3" fill="#4169E1"/>
+  <circle cx="240" cy="160" r="3" fill="#4169E1"/>
+  
+  <!-- Orange spots -->
+  <circle cx="170" cy="150" r="2" fill="#FF8C00"/>
+  <circle cx="190" cy="145" r="2" fill="#FF8C00"/>
+  <circle cx="210" cy="155" r="2" fill="#FF8C00"/>
+  <circle cx="230" cy="150" r="2" fill="#FF8C00"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Pumpkinseed</text>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5D6D7E">Lepomis gibbosus</text>
+</svg>

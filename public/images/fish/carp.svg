@@ -1,0 +1,54 @@
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Carp Body -->
+  <ellipse cx="100" cy="60" rx="65" ry="35" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Carp Head -->
+  <ellipse cx="45" cy="60" rx="25" ry="28" fill="#A0522D" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Carp Tail -->
+  <path d="M 165 60 Q 200 40 190 60 Q 200 80 165 60" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Carp Eye -->
+  <circle cx="35" cy="55" r="4" fill="white"/>
+  <circle cx="35" cy="55" r="2" fill="black"/>
+  
+  <!-- Carp Mouth -->
+  <ellipse cx="25" cy="62" rx="3" ry="2" fill="#654321"/>
+  
+  <!-- Carp Fins -->
+  <!-- Dorsal Fin -->
+  <path d="M 70 25 Q 85 15 100 25 Q 115 35 130 25 Q 145 15 160 25" fill="#A0522D" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Pectoral Fins -->
+  <ellipse cx="55" cy="75" rx="8" ry="15" fill="#A0522D" stroke="#654321" stroke-width="1" transform="rotate(-20 55 75)"/>
+  <ellipse cx="55" cy="45" rx="8" ry="15" fill="#A0522D" stroke="#654321" stroke-width="1" transform="rotate(20 55 45)"/>
+  
+  <!-- Pelvic Fins -->
+  <ellipse cx="85" cy="85" rx="6" ry="12" fill="#A0522D" stroke="#654321" stroke-width="1"/>
+  <ellipse cx="115" cy="85" rx="6" ry="12" fill="#A0522D" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Anal Fin -->
+  <ellipse cx="140" cy="90" rx="8" ry="12" fill="#A0522D" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Carp Scales -->
+  <circle cx="70" cy="55" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="80" cy="50" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="90" cy="55" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="100" cy="50" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="110" cy="55" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="120" cy="50" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="130" cy="55" r="2" fill="#CD853F" opacity="0.6"/>
+  
+  <!-- Lower row scales -->
+  <circle cx="75" cy="70" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="85" cy="65" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="95" cy="70" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="105" cy="65" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="115" cy="70" r="2" fill="#CD853F" opacity="0.6"/>
+  <circle cx="125" cy="65" r="2" fill="#CD853F" opacity="0.6"/>
+  
+  <!-- Barbels (whiskers) -->
+  <line x1="25" y1="58" x2="15" y2="55" stroke="#654321" stroke-width="1"/>
+  <line x1="25" y1="62" x2="15" y2="65" stroke="#654321" stroke-width="1"/>
+  <line x1="25" y1="66" x2="15" y2="68" stroke="#654321" stroke-width="1"/>
+</svg>

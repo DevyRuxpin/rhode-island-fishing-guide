@@ -1,0 +1,51 @@
+Fish Images Directory
+
+This directory contains fish species images for the Rhode Island Fishing Guide app.
+
+For now, placeholder images are being used. To add real fish images:
+
+1. Source images from public domain or Creative Commons sources:
+   - U.S. Fish and Wildlife Service Digital Library
+   - NOAA Photo Library
+   - Wikimedia Commons
+   - Public domain fish identification guides
+
+2. Recommended image specifications:
+   - Format: JPG or PNG
+   - Size: 400x300 pixels minimum
+   - Quality: High resolution for web display
+   - License: Public domain or Creative Commons with attribution
+
+3. Naming convention:
+   - striped-bass.jpg
+   - largemouth-bass.jpg
+   - fluke.jpg
+   - tautog.jpg
+   - etc.
+
+4. Required fish species images:
+   - Striped Bass
+   - Fluke (Summer Flounder)
+   - Tautog (Blackfish)
+   - Bluefish
+   - Scup (Porgy)
+   - Black Sea Bass
+   - Winter Flounder
+   - Weakfish (Squeteague)
+   - Atlantic Cod
+   - Pollock
+   - Brown Trout
+   - Rainbow Trout
+   - Largemouth Bass
+   - Smallmouth Bass
+   - Chain Pickerel
+   - Yellow Perch
+   - White Perch
+   - Bluegill
+   - Pumpkinseed
+   - American Eel
+   - Brook Trout
+   - Northern Pike
+   - Carp
+
+The app will gracefully handle missing images by displaying a fish icon placeholder.

@@ -1,0 +1,59 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="seaBassGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2F2F2F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4A4A4A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F2F2F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6F3FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3D9FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Water background -->
+  <rect width="400" height="300" fill="url(#waterGradient)"/>
+  
+  <!-- Fish body -->
+  <ellipse cx="200" cy="150" rx="100" ry="45" fill="url(#seaBassGradient)" stroke="#1A1A1A" stroke-width="2"/>
+  
+  <!-- Fish head -->
+  <ellipse cx="120" cy="150" rx="45" ry="35" fill="url(#seaBassGradient)" stroke="#1A1A1A" stroke-width="2"/>
+  
+  <!-- Fish tail -->
+  <path d="M 300 150 Q 330 130 350 150 Q 330 170 300 150" fill="url(#seaBassGradient)" stroke="#1A1A1A" stroke-width="2"/>
+  
+  <!-- Dorsal fin with spines -->
+  <path d="M 140 110 Q 180 105 220 110 Q 260 112 300 110 Q 280 120 240 115 Q 200 125 160 115 Q 140 120 140 110" fill="#1A1A1A" stroke="#0F0F0F" stroke-width="1"/>
+  
+  <!-- Dorsal fin spines -->
+  <line x1="150" y1="115" x2="150" y2="105" stroke="#0F0F0F" stroke-width="2"/>
+  <line x1="170" y1="115" x2="170" y2="105" stroke="#0F0F0F" stroke-width="2"/>
+  <line x1="190" y1="115" x2="190" y2="105" stroke="#0F0F0F" stroke-width="2"/>
+  <line x1="210" y1="115" x2="210" y2="105" stroke="#0F0F0F" stroke-width="2"/>
+  <line x1="230" y1="115" x2="230" y2="105" stroke="#0F0F0F" stroke-width="2"/>
+  
+  <!-- Pectoral fin -->
+  <ellipse cx="140" cy="160" rx="10" ry="18" fill="#1A1A1A" stroke="#0F0F0F" stroke-width="1"/>
+  
+  <!-- Eye -->
+  <circle cx="100" cy="145" r="7" fill="white" stroke="#000" stroke-width="1"/>
+  <circle cx="100" cy="145" r="4" fill="black"/>
+  <circle cx="101" cy="143" r="1.5" fill="white"/>
+  
+  <!-- Mouth -->
+  <ellipse cx="80" cy="150" rx="6" ry="4" fill="#000"/>
+  
+  <!-- Gill -->
+  <path d="M 90 140 Q 80 145 90 150" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+  
+  <!-- Anal fin -->
+  <path d="M 140 185 Q 180 195 220 185 Q 260 180 300 185 Q 280 190 240 182 Q 200 190 160 182 Q 140 185 140 185" fill="#1A1A1A" stroke="#0F0F0F" stroke-width="1"/>
+  
+  <!-- Lateral line -->
+  <line x1="140" y1="150" x2="280" y2="150" stroke="#0F0F0F" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">Black Sea Bass</text>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5D6D7E">Centropristis striata</text>
+</svg>
