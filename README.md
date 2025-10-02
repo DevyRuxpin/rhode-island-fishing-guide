@@ -14,6 +14,12 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-green?style=for-the-badge)](https://github.com/DevyRuxpin/rhode-island-fishing-guide)
 [![Documentation](https://img.shields.io/badge/Documentation-Read%20Docs-blue?style=for-the-badge)](./docs/README.md)
 
+### 📸 **Quick Preview**
+<div align="center">
+<img src="public/screenshots/fishing-guide-home.png" alt="Rhode Island Fishing Guide Home" width="45%" style="margin: 10px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="public/screenshots/ai-recommendations.png" alt="AI Recommendations" width="45%" style="margin: 10px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+
 </div>
 
 ---
@@ -104,29 +110,37 @@ Ask our AI expert anything about Rhode Island fishing:
 
 ## 🎬 **Screenshots & Demo**
 
+<div align="center">
+
 ### 🏠 **Home Page**
-- Modern hero section with Rhode Island imagery
-- Interactive feature cards with smooth animations
-- Quick stats overview
-- Featured fishing spots gallery
+![Rhode Island Fishing Guide Home](public/screenshots/fishing-guide-home.png)
+*Modern hero section with Rhode Island imagery, interactive feature cards, and featured fishing spots*
 
 ### 🐟 **Fish Species Guide**
-- Grid layout with species cards
-- Custom SVG illustrations
-- Detailed species information
-- Location and regulation data
+![Fish Species Guide](public/screenshots/fish-species.png)
+*Comprehensive species database with custom SVG illustrations, detailed information, and location mapping*
 
 ### 🧠 **AI Recommendations**
-- Conversational interface
-- Location-specific advice
-- Real-time recommendations
-- Expert knowledge integration
+![AI Recommendations](public/screenshots/ai-recommendations.png)
+*Conversational AI interface providing personalized, location-specific fishing advice*
+
+### 📊 **Fishing Reports**
+![Fishing Reports](public/screenshots/fishing-reports.png)
+*AI-generated professional fishing reports with current conditions and predictions*
 
 ### 📝 **Fishing Journal**
-- Photo upload functionality
-- Rich text entries
-- Fish gallery view
-- Progress tracking
+![Fishing Journal](public/screenshots/fishing-journal.png)
+*Personal fishing log with photo uploads, detailed entries, and fish gallery*
+
+### 🛒 **Gear Guide**
+![Gear Guide](public/screenshots/gear-guide.png)
+*Curated starter kits with real, purchasable gear for all skill levels*
+
+### 🛍️ **Shopping Experience**
+![Kit Gear Shopping](public/screenshots/kit-gear-shopping.png)
+*Seamless shopping experience with copy-to-clipboard functionality and Amazon integration*
+
+</div>
 
 ---
 
