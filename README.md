@@ -11,7 +11,7 @@
 
 *Built with ❤️ by [Kali Consulting LLC](https://kaliconsulting.com)*
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-green?style=for-the-badge)](https://your-demo-url.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-green?style=for-the-badge)](https://github.com/DevyRuxpin/rhode-island-fishing-guide)
 [![Documentation](https://img.shields.io/badge/Documentation-Read%20Docs-blue?style=for-the-badge)](./docs/README.md)
 
 </div>
@@ -140,7 +140,7 @@ Ask our AI expert anything about Rhode Island fishing:
 
 ```bash
 # Clone the repository
-git clone https://github.com/[username]/rhode-island-fishing-guide.git
+git clone https://github.com/DevyRuxpin/rhode-island-fishing-guide.git
 
 # Navigate to project directory
 cd rhode-island-fishing-guide
@@ -250,7 +250,7 @@ Want to contribute code?
 | 🌐 **Website** | [Kali Consulting LLC](https://kaliconsulting.com) |
 | 📧 **Email** | [Contact Form](https://kaliconsulting.com/contact) |
 | 💼 **LinkedIn** | [Kali Consulting](https://linkedin.com/company/kali-consulting) |
-| 🐛 **Issues** | [GitHub Issues](https://github.com/[username]/rhode-island-fishing-guide/issues) |
+| 🐛 **Issues** | [GitHub Issues](https://github.com/DevyRuxpin/rhode-island-fishing-guide/issues) |
 
 </div>
 
@@ -262,7 +262,7 @@ Want to contribute code?
 
 **Start your Rhode Island fishing adventure today!**
 
-[![Try Now](https://img.shields.io/badge/Try%20Now-Get%20Started-green?style=for-the-badge&logo=fish)](https://your-demo-url.com)
+[![Try Now](https://img.shields.io/badge/Try%20Now-Get%20Started-green?style=for-the-badge&logo=fish)](https://github.com/DevyRuxpin/rhode-island-fishing-guide)
 
 *Built with ❤️ for Rhode Island fishing enthusiasts*
 

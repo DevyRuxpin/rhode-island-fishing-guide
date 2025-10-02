@@ -18,11 +18,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/[username]/rhode-island-fishing-guide.git"
+    "url": "https://github.com/DevyRuxpin/rhode-island-fishing-guide.git"
   },
-  "homepage": "https://github.com/[username]/rhode-island-fishing-guide#readme",
+  "homepage": "https://github.com/DevyRuxpin/rhode-island-fishing-guide#readme",
   "bugs": {
-    "url": "https://github.com/[username]/rhode-island-fishing-guide/issues"
+    "url": "https://github.com/DevyRuxpin/rhode-island-fishing-guide/issues"
   },
   "scripts": {
     "dev": "next dev --turbopack",
